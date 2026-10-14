@@ -1,10 +1,11 @@
+
 import suma_listas
 import multiplicacion
 import multiplicacion_lista
 import repetidos
- 
+
 opcion = ""
- 
+
 while opcion != "0":
     print("")
     print("===== MENU DE ALGORITMOS =====")
@@ -13,9 +14,9 @@ while opcion != "0":
     print("3. Multiplicar elementos de una lista")
     print("4. Lista de no repetidos")
     print("0. Salir")
- 
+
     opcion = input("Elige una opcion: ")
- 
+
     if opcion == "1":
         suma_listas.ejecutar()
     elif opcion == "2":
